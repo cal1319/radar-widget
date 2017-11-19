@@ -1,18 +1,16 @@
-= Camera Widget for Dashing
+= Radar Widget for Smashing
 
-Camera Widget is a widget for Shopify's dashing framework to display static IP camera images, updated and rotated every n seconds. 
-
-Camera Widget can support multiple camera widgets displayed at a single time using the same static controller and model. This has been tested to support up to 5 seperate cameras. 
+Radar Widget is a widget for the Smashing dashboard framework (https://github.com/Smashing/smashing) to display a static image from NOAA's National Weather Service, updated every n seconds. 
 
 = Configuration
 
-Copy the contents of the assets, jobs, and widgets directories to your dashing installation. 
+Copy the contents of the assets, jobs, and widgets directories to your Smashing installation. 
 
-Edit the jobs/cameras.rb file to specify which camera hosts to display. 
-
-Edit your dashboard to include the views for each camera widget that you would like to display. Inside the cameras controller there are names for each camera, ie: camera1, camera2, camera3 and so on. You can use the included dashboard configuration as a guide for setting up the camera widgets view. 
+Edit the jobs/cameras.rb file to specify which NWS radar station to display. Radar stations are listed here: http://www.srh.noaa.gov/jetstream/doppler/ridge_download.html
 
 = License
+
+Radar Widget was forked from CameraWidget:
 
 CameraWidget - A Dashing Widget to display static camera images rotated every n seconds.
 
