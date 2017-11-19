@@ -13,6 +13,9 @@ Add the following to your .erb dashboard file:
       <div data-id="radar" data-view="Radar" data-image=""></div>
     </li>
 
+https://i.imgur.com/BW6rSca.png
+Example of Radar Widget
+
 = License
 
 Radar Widget was forked from CameraWidget:
