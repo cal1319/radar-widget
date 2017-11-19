@@ -8,6 +8,11 @@ Copy the contents of the assets, jobs, and widgets directories to your Smashing 
 
 Edit the jobs/cameras.rb file to specify which NWS radar station to display. Radar stations are listed here: http://www.srh.noaa.gov/jetstream/doppler/ridge_download.html
 
+Add the following to your .erb dashboard file:
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="radar" data-view="Radar" data-image=""></div>
+    </li>
+
 = License
 
 Radar Widget was forked from CameraWidget:
